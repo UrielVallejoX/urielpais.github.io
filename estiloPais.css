@@ -1,0 +1,87 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid rgb(0, 110, 255);
+}
+
+header, footer {
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 75, 104);
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid rgb(15, 56, 118);
+    padding: 1em;
+    overflow: hidden;
+    background-color: #fafafa;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+h2{
+  text-align:center;
+  font-size: 100%;
+}
+
+#francia{
+  color:rgb(0, 43, 128);
+}
+
+#canada{
+  color:red;
+}
+
+#reino{
+  color:rgb(0, 43, 128);;
+}
+
+#estados{
+  color:rgb(212, 19, 19);
+}
+
+.banderaFran{
+  background-image: url("../img/francia.jpg");
+  }
+.banderaCan{
+  background-image: url("../img/canada.jpg");
+}
+.banderaReino{
+  background-image: url("../img/reino.jpg");
+}
+.banderaEst{
+  background-image: url("../img/estados.jpg");
+}
